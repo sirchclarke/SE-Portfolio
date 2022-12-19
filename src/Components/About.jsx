@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/mosaic.svg";
+import image from "../images/coding.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -32,11 +32,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "CSS Web-styling",
+  "Front-End React.js",
+  "Javascript",
+  "SQL",
+  "Express",
 ];
 
 /**
