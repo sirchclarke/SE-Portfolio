@@ -45,9 +45,9 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-const downloadResume = "Follow to my list of achievements";
+  "I am passionate about solving problems in new creative ways to drive innovation. My background in Design helps me implement outside perspectives into my front-end development projects. Finding every avenue for success helps me open new worlds of opportunity and overcome daunting challenges";
 
+  const downloadResume = "";
 
 const About = () => {
   return (
@@ -74,7 +74,15 @@ const About = () => {
             gap: "3rem",
           }}
         >
-          <h2> DownLoad Resume</h2>
+       
+        
+          {skillsList.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
+        <hr />
+        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+     
           <a
             href="https://docs.google.com/document/d/1ljFytvYXPUjRtMpzOcboS-j-28A5qSqngFqpLu_b-VY/edit?usp=sharing"
             download="ChrisCG-resume"
@@ -85,12 +93,6 @@ const About = () => {
           <p className="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white">
             {downloadResume}
           </p>
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
