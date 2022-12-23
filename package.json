@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://sirchclarke.github.io/SE-Portfolio",
+  "homepage": "https://chriscg.com'",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://sirchclarke.github.io/SE-Portfolio'",
+    "build-gh": "parcel build --public-url 'https://chriscg.com'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
