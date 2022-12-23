@@ -46,6 +46,8 @@ const skillsList = [
  */
 const detailOrQuote =
   "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const downloadResume = "Follow to my list of achievements";
+
 
 const About = () => {
   return (
@@ -72,6 +74,17 @@ const About = () => {
             gap: "3rem",
           }}
         >
+          <h2> DownLoad Resume</h2>
+          <a
+            href="https://docs.google.com/document/d/1ljFytvYXPUjRtMpzOcboS-j-28A5qSqngFqpLu_b-VY/edit?usp=sharing"
+            download="ChrisCG-resume"
+          >
+            Download Resume
+          </a>
+
+          <p className="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white">
+            {downloadResume}
+          </p>
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
