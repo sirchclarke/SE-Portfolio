@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://www.chriscg.com/",
+  "homepage": "https://sirchclarke.github.io/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
