@@ -5,6 +5,6 @@
 import React from "react";
 import { render } from "react-dom";
 
-import App from "./App.jsx";
+import App from "./App";
 
-render(<App />, document.getElementById("app"));
+render(<App></App>, document.getElementById("app"));
