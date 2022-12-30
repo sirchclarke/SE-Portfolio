@@ -2,7 +2,7 @@
   "name": "se-portfolio",
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
-  "source": "index.html",
+  "source": "src/index.html",
   "homepage": "https://sirchclarke.github.io/SE-Portfolio",
   "scripts": {
     "start": "parcel",
